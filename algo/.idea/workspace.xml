@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4a9c041-7784-41d0-bd35-fb0e7733f06a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9 -ww\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eAKn9LQiueGFsIPFKY3AjMXLRI" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;oracle" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/cqsztech/zerocopy" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccmars\IdeaProjects\algo\src\main\java\cn\cqsztech\zerocopy" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ConcurrentLinkedQueueTester">
+    <configuration name="ConcurrentLinkedQueueTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.juc.ConcurrentLinkedQueueTester" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cqsztech.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapAutoExtendCapacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.hashMap.HashMapAutoExtendCapacity" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cqsztech.hashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.Main" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cqsztech.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.reflect.ReflectInterface" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cqsztech.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.thread.TestFinally" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cqsztech.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestFinally" />
+      <item itemvalue="Application.HashMapAutoExtendCapacity" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ConcurrentLinkedQueueTester" />
+      <item itemvalue="Application.ReflectInterface" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConcurrentLinkedQueueTester" />
+        <item itemvalue="Application.ReflectInterface" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestFinally" />
+        <item itemvalue="Application.HashMapAutoExtendCapacity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4a9c041-7784-41d0-bd35-fb0e7733f06a" name="Default Changelist" comment="" />
+      <created>1593759121350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593759121350</updated>
+      <workItem from="1593759124406" duration="123000" />
+      <workItem from="1593759285539" duration="99000" />
+      <workItem from="1593759415959" duration="814000" />
+      <workItem from="1594621483024" duration="137000" />
+      <workItem from="1601172375544" duration="77000" />
+      <workItem from="1611024600862" duration="3351000" />
+      <workItem from="1615345772968" duration="14000" />
+      <workItem from="1617953501818" duration="1513000" />
+      <workItem from="1618378349590" duration="2877000" />
+      <workItem from="1618448481390" duration="1675000" />
+      <workItem from="1618814361715" duration="57000" />
+      <workItem from="1618815048924" duration="1591000" />
+      <workItem from="1618897093819" duration="2338000" />
+      <workItem from="1619250558515" duration="2693000" />
+      <workItem from="1619257912063" duration="575000" />
+      <workItem from="1619258560710" duration="2454000" />
+      <workItem from="1619407065406" duration="2581000" />
+      <workItem from="1619678265593" duration="4284000" />
+      <workItem from="1619690137134" duration="111000" />
+      <workItem from="1619690353574" duration="10000" />
+      <workItem from="1620626953066" duration="40000" />
+      <workItem from="1621562698400" duration="5964000" />
+      <workItem from="1621695102793" duration="1056000" />
+      <workItem from="1621769205233" duration="971000" />
+      <workItem from="1621904996603" duration="2774000" />
+      <workItem from="1621911329200" duration="5724000" />
+      <workItem from="1622013585472" duration="7586000" />
+      <workItem from="1622027917928" duration="46000" />
+      <workItem from="1622093735291" duration="4980000" />
+      <workItem from="1622118619119" duration="233000" />
+      <workItem from="1622440603447" duration="510000" />
+      <workItem from="1622441216359" duration="2170000" />
+      <workItem from="1622448592382" duration="2313000" />
+      <workItem from="1622527569041" duration="352000" />
+      <workItem from="1622528476701" duration="3802000" />
+      <workItem from="1622540236645" duration="1195000" />
+      <workItem from="1622555500280" duration="34000" />
+      <workItem from="1622599806962" duration="9071000" />
+      <workItem from="1622637270392" duration="1838000" />
+      <workItem from="1622687320830" duration="5296000" />
+      <workItem from="1622702305737" duration="1051000" />
+      <workItem from="1623043935610" duration="8609000" />
+      <workItem from="1623058487634" duration="596000" />
+      <workItem from="1623059196098" duration="909000" />
+      <workItem from="1623113859582" duration="4541000" />
+      <workItem from="1623132103164" duration="4537000" />
+      <workItem from="1623138489024" duration="12000" />
+      <workItem from="1623141842114" duration="5275000" />
+      <workItem from="1623162543934" duration="448000" />
+      <workItem from="1623163041955" duration="974000" />
+      <workItem from="1623202761332" duration="2922000" />
+      <workItem from="1623233522492" duration="4095000" />
+      <workItem from="1623316959106" duration="1357000" />
+      <workItem from="1623375414302" duration="2474000" />
+      <workItem from="1623380592852" duration="896000" />
+      <workItem from="1623734953093" duration="4828000" />
+      <workItem from="1623897082755" duration="5154000" />
+      <workItem from="1623924536389" duration="3603000" />
+      <workItem from="1624347541274" duration="1006000" />
+      <workItem from="1624349055979" duration="2816000" />
+      <workItem from="1624352110423" duration="2088000" />
+      <workItem from="1624409983410" duration="1831000" />
+      <workItem from="1624414116953" duration="1527000" />
+      <workItem from="1624497672482" duration="805000" />
+      <workItem from="1624947746583" duration="734000" />
+      <workItem from="1625015548899" duration="7511000" />
+      <workItem from="1625104536669" duration="3444000" />
+      <workItem from="1625726395058" duration="7180000" />
+      <workItem from="1625794594513" duration="2965000" />
+      <workItem from="1626176554365" duration="55000" />
+      <workItem from="1626360952223" duration="841000" />
+      <workItem from="1626744346109" duration="603000" />
+      <workItem from="1626849791768" duration="831000" />
+      <workItem from="1626860572550" duration="674000" />
+      <workItem from="1626917781209" duration="696000" />
+      <workItem from="1626932491812" duration="1810000" />
+      <workItem from="1627002119469" duration="2433000" />
+      <workItem from="1627006865031" duration="769000" />
+      <workItem from="1627025560882" duration="4227000" />
+      <workItem from="1627038330749" duration="4738000" />
+      <workItem from="1627044967900" duration="486000" />
+      <workItem from="1627112882869" duration="34000" />
+      <workItem from="1628056854015" duration="8264000" />
+      <workItem from="1628141995596" duration="1754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt://C:/Program Files/JetBrains/IntelliJ IDEA 2019.2.3/jbr!/java.base/java/util/HashMap.class</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/db/TransactionTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/reflect/ReflectInterface.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/reflect/ReflectInterface.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>20</line>
+          <properties field="i" class="cn.cqsztech.objectinit.Father" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>21</line>
+          <properties field="j" class="cn.cqsztech.objectinit.Father" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
+          <line>7</line>
+          <properties field="i" class="cn.cqsztech.objectinit.Child" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
+          <line>8</line>
+          <properties field="j" class="cn.cqsztech.objectinit.Child" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
+          <line>7</line>
+          <properties field="k" class="cn.cqsztech.objectinit.Father" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="this.head" language="JAVA" />
+        <watch expression="this.tail" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algo$Main.ic" NAME="Main Coverage Results" MODIFIED="1627040967455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.cqsztech.*</FILTER>
+    </SUITE>
+  </component>
+</project>
