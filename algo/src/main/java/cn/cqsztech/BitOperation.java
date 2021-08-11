@@ -10,6 +10,7 @@ public class BitOperation {
         //101
         //110
         //00000000000000000000000000000001
+        //输出的是补码 对应的正数取反+1就是对应负数的补码，也就是正数的相反数
         System.out.println(Integer.toBinaryString(-1));
         System.out.println(1|2&1);
         System.out.println(3&1);

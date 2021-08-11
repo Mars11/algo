@@ -46,7 +46,8 @@ public class XorOperationInAlgorithm {
             selectOne = selectOne^arg0[i];
         }
         //找出其中最右为为1的数字位在第几位，以及区分原数据中的数据
-        int selectTwo = selectOne&(~selectOne-1);
+        //此处取反加+1和取反-1的操作效果相同？
+        int selectTwo = selectOne&(~selectOne+1);
         int selectThree = 0;
         for (int i = 0; i < arg0.length; i++) {
             if((arg0[i]&selectTwo) == 0){
@@ -70,6 +71,11 @@ public class XorOperationInAlgorithm {
         a = a^b;
     }
     public static void main(String[] args) {
+        System.out.println(~10);
+        System.out.println(Integer.toBinaryString(-1<<29));
+        System.out.println(0<<29);
+        System.out.println(1<<29);
+        System.out.println(3<<29);
         int[] ar = {1,3,0,3,1,14,12,14,12};
         System.out.println(find(ar));
         ar = new int[]{1, 3, 0, 3, 1, 14, 12, 14, 12, 222};
