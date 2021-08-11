@@ -11,7 +11,8 @@ import java.util.concurrent.*;
  **/
 public class TestThreadPoolExecutor {
     public static void main(String[] args) throws InterruptedException {
-
+        System.out.println(Integer.toBinaryString(-1<<29));
+        System.out.println(Integer.toBinaryString(-1));
         ThreadPoolExecutor threadPoolExecutor  =
                 new ThreadPoolExecutor(10,
                         100,
