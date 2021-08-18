@@ -5,6 +5,19 @@ package cn.cqsztech;
  */
 public class BitOperation {
     public static void main(String[] args) {
+        //i++ 和 ++i的区别
+        int i = 10;
+
+        // 3 iload_1
+        // 4 iinc 1 by 1
+        // 7 istore_1
+        i=i++;
+        i++;
+        i=++i;
+        // 3 iinc 1 by 1
+        // 6 iload_1
+        // 7 istore_1
+        System.out.println(i);
         // % | 操作
         //11111111111111111111111111111111
         //101
