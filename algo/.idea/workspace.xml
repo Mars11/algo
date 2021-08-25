@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4a9c041-7784-41d0-bd35-fb0e7733f06a" name="Default Changelist" comment="" />
+    <list default="true" id="f4a9c041-7784-41d0-bd35-fb0e7733f06a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/cqsztech/config/ApolloConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/cqsztech/config/ApolloEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apollo/ApolloConfigTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/cqsztech/BitOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/cqsztech/BitOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/cqsztech/db/transaction/RequiredNewAndRequiredNewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/cqsztech/db/transaction/RequiredNewAndRequiredNewServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/cqsztech/reflect/ReflectInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/cqsztech/reflect/ReflectInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/db/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/db/TransactionTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +40,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="NewLua" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -49,19 +67,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1eAKn9LQiueGFsIPFKY3AjMXLRI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql&#10;oracle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/cqsztech/zerocopy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccmars\IdeaProjects\algo\src\main\resources\META-INF" />
       <recent name="C:\Users\ccmars\IdeaProjects\algo\src\main\java\cn\cqsztech\zerocopy" />
     </key>
   </component>
@@ -77,35 +98,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcurrentLinkedQueueTester">
-    <configuration name="ConcurrentLinkedQueueTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.juc.ConcurrentLinkedQueueTester" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.cqsztech.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapAutoExtendCapacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.hashMap.HashMapAutoExtendCapacity" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.cqsztech.hashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.Main" />
+  <component name="RunManager" selected="JUnit.ApolloConfigTest.testDirectUse">
+    <configuration name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.BitOperation" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -130,33 +125,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.cqsztech.thread.TestFinally" />
+    <configuration name="ApolloConfigTest.testConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.cqsztech.thread.*" />
+          <option name="PATTERN" value="apollo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="apollo" />
+      <option name="MAIN_CLASS_NAME" value="apollo.ApolloConfigTest" />
+      <option name="METHOD_NAME" value="testConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApolloConfigTest.testDirectUse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apollo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apollo" />
+      <option name="MAIN_CLASS_NAME" value="apollo.ApolloConfigTest" />
+      <option name="METHOD_NAME" value="testDirectUse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTest.testTransactionRNRN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="db" />
+      <option name="MAIN_CLASS_NAME" value="db.TransactionTest" />
+      <option name="METHOD_NAME" value="testTransactionRNRN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mylua.lua" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="D:\Binaries-LuaDist-batteries-0.9.8-Windows-x86\bin\lua.exe" />
+      <option name="file" value="delayqueue/mylua.lua" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.TestFinally" />
-      <item itemvalue="Application.HashMapAutoExtendCapacity" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ConcurrentLinkedQueueTester" />
+      <item itemvalue="Application.BitOperation" />
       <item itemvalue="Application.ReflectInterface" />
+      <item itemvalue="JUnit.TransactionTest.testTransactionRNRN" />
+      <item itemvalue="JUnit.ApolloConfigTest.testConfig" />
+      <item itemvalue="Lua Application.mylua.lua" />
+      <item itemvalue="JUnit.ApolloConfigTest.testDirectUse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcurrentLinkedQueueTester" />
+        <item itemvalue="JUnit.ApolloConfigTest.testDirectUse" />
+        <item itemvalue="JUnit.ApolloConfigTest.testConfig" />
+        <item itemvalue="JUnit.TransactionTest.testTransactionRNRN" />
         <item itemvalue="Application.ReflectInterface" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestFinally" />
-        <item itemvalue="Application.HashMapAutoExtendCapacity" />
+        <item itemvalue="Application.BitOperation" />
       </list>
     </recent_temporary>
   </component>
@@ -253,12 +295,106 @@
       <workItem from="1627044967900" duration="486000" />
       <workItem from="1627112882869" duration="34000" />
       <workItem from="1628056854015" duration="8264000" />
-      <workItem from="1628141995596" duration="1754000" />
+      <workItem from="1628141995596" duration="4042000" />
+      <workItem from="1628154541258" duration="2492000" />
+      <workItem from="1628172242602" duration="359000" />
+      <workItem from="1628435206501" duration="11618000" />
+      <workItem from="1628559070094" duration="6692000" />
+      <workItem from="1628587902818" duration="1019000" />
+      <workItem from="1628596743007" duration="27000" />
+      <workItem from="1628644023092" duration="9034000" />
+      <workItem from="1628672796368" duration="2636000" />
+      <workItem from="1628747395499" duration="2737000" />
+      <workItem from="1629186468289" duration="742000" />
+      <workItem from="1629249317794" duration="2794000" />
+      <workItem from="1629252822042" duration="702000" />
+      <workItem from="1629266784918" duration="1887000" />
+      <workItem from="1629275614750" duration="3346000" />
+      <workItem from="1629335089011" duration="1932000" />
+      <workItem from="1629356785843" duration="3949000" />
+      <workItem from="1629363729652" duration="1529000" />
+      <workItem from="1629700743835" duration="2588000" />
+      <workItem from="1629782366447" duration="2594000" />
+      <workItem from="1629786401819" duration="1197000" />
+      <workItem from="1629860764520" duration="8040000" />
     </task>
+    <task id="LOCAL-00001" summary="算法相关的">
+      <created>1628490833366</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628490833366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="优化">
+      <created>1628644556617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628644556617</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试volatile关键字可见性问题">
+      <created>1628664878700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628664878700</updated>
+    </task>
+    <task id="LOCAL-00004" summary="链表翻转">
+      <created>1628749549308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628749549308</updated>
+    </task>
+    <task id="LOCAL-00005" summary="++i和i++的区别">
+      <created>1629253495177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629253495177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="引入fastjson">
+      <created>1629269558326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629269558326</updated>
+    </task>
+    <task id="LOCAL-00007" summary="大根堆实现">
+      <created>1629363767423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629363767423</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="算法相关的" />
+    <MESSAGE value="优化" />
+    <MESSAGE value="测试volatile关键字可见性问题" />
+    <MESSAGE value="链表翻转" />
+    <MESSAGE value="++i和i++的区别" />
+    <MESSAGE value="引入fastjson" />
+    <MESSAGE value="大根堆实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="大根堆实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,13 +436,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/reflect/ReflectInterface.java</url>
-          <line>40</line>
+          <line>39</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/reflect/ReflectInterface.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
@@ -327,6 +458,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Child.java</url>
           <line>23</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/db/TransactionTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/db/transaction/RequiredNewAndRequiredNewServiceImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/cn/cqsztech/objectinit/Father.java</url>
@@ -360,12 +501,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="this.head" language="JAVA" />
-        <watch expression="this.tail" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algo$Main.ic" NAME="Main Coverage Results" MODIFIED="1627040967455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

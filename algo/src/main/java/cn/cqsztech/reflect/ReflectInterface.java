@@ -32,8 +32,7 @@ public class ReflectInterface {
         Object o = Proxy.newProxyInstance(ReflectInterface.class.getClassLoader(), new Class[]{movable.class}, new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                System.out.println("invoke");
-                method.invoke(proxy,new Object[]{});
+                method.invoke(proxy,args);
                 return null;
             }
         });

@@ -46,4 +46,9 @@ public class RequiredNewAndRequiredNewServiceImpl {
             System.out.println(map);
         }
     }
+    @Transactional
+    public  void testApollo(){
+        List<Map<String, Object>> maps = jdbcTemplate.queryForList("select * from App");
+        System.out.println(maps.size());
+    }
 }

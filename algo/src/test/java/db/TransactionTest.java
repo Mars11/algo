@@ -32,6 +32,8 @@ public class TransactionTest {
     }
     @Test
     public void testTransactionRNRN(){
+        service.testApollo();
+
         service.testUpdateInnerError();
         service.testUpdateOuterError();
     }
