@@ -5,7 +5,7 @@ package cn.cqsztech.list;
  * 2021/8/11
  **/
 public class LinkedList {
-    static class Node {
+    public static class Node {
         int item;
         Node next;
 
