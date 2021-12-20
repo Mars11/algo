@@ -36,5 +36,6 @@ public class ConcurrentLinkedQueueTester {
         clq.add("hello");
         clq.add("b");
         clq.add("c");
+        clq.add(null);
     }
 }

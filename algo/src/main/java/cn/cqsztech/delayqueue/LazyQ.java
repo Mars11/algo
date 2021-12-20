@@ -1,4 +1,4 @@
-package delayqueue;
+package cn.cqsztech.delayqueue;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

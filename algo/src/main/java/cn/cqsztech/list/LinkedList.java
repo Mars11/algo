@@ -36,6 +36,23 @@ public class LinkedList {
         }
         return pre;
     }
+    public static Node MyReverseLinkedList(Node node) {
+        Node pre = null;
+        Node next = null;
+        while (node != null) {
+            //保存环境 将next节点放到next变量
+            next = node.next;
+            //next节点的值替换成之前的节点 也就是指针方向改变
+            node.next = pre;
+            //更新pre节点 保证下次节点进来的pre节点依然是有效的前置节点
+            pre = node;
+            //循环条件
+            node = next;
+
+        }
+        return pre;
+    }
+
 
     public static void main(String[] args) {
        Node no =  new Node(1);
@@ -47,5 +64,9 @@ public class LinkedList {
         System.out.println(n.item);
         System.out.println(n.next.item);
         System.out.println(n.next.next.item);
+        Node myn = MyReverseLinkedList(n);
+        System.out.println(myn.item);
+        System.out.println(myn.next.item);
+        System.out.println(myn.next.next.item);
     }
 }

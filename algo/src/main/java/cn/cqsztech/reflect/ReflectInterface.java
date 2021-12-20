@@ -1,5 +1,9 @@
 package cn.cqsztech.reflect;
 
+import com.sun.istack.internal.Pool;
+
+import javax.sound.midi.Soundbank;
+import java.awt.*;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -10,33 +14,55 @@ import java.lang.reflect.Proxy;
  **/
 public class ReflectInterface {
     interface  movable{
-      void   move(String s);
+      String   move(String s);
     }
-    class A implements movable{
+    static class A implements movable{
 
         @Override
-        public void move(String s) {
+        public String move(String s) {
             System.out.println("A");
+            return "A Class";
         }
     }
 
-    class B implements movable{
+//    class B implements movable{
+//
+//        @Override
+//        public String move(String s) {
+//            System.out.println("B");
+//            return "B Class";
+//        }
+//    }
 
-        @Override
-        public void move(String s) {
-            System.out.println("B");
-        }
+    /**
+     * 动态代理的基本实现思路
+     * 实现一个invocationhandler 聚合一个被代理对象
+     */
+    static class MyInvocationHandler implements InvocationHandler{
+        movable m;
+
+    public MyInvocationHandler(movable m) {
+        this.m = m;
     }
+
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        System.out.println("before");
+        Object result =  method.invoke(m,args);
+        System.out.println("after");
+        return result;
+
+    }
+}
 
     public static void main(String[] args) {
-        Object o = Proxy.newProxyInstance(ReflectInterface.class.getClassLoader(), new Class[]{movable.class}, new InvocationHandler() {
-            @Override
-            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                method.invoke(proxy,args);
-                return null;
-            }
-        });
-        movable m  = (movable) o;
-        m.move("hh");
+        //基于jdk的动态代理
+        movable m = new A();
+        Object o = Proxy.newProxyInstance(ReflectInterface.class.getClassLoader(), new Class[]{movable.class}, new MyInvocationHandler(m));
+        movable proxy  = (movable) o;
+        String hh = proxy.move("hh");
+        System.out.println(hh);
+        System.out.println(o.toString());
     }
+
 }
