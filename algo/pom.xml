@@ -89,6 +89,11 @@
             <artifactId>jol-core</artifactId>
             <version>0.9</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>29.0-android</version>
+        </dependency>
 
 
     </dependencies>
