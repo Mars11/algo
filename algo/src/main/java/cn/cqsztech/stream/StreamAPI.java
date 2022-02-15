@@ -1,5 +1,9 @@
 package cn.cqsztech.stream;
 
+import cn.cqsztech.vo.Student;
+import cn.cqsztech.vo.Teacher;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -36,10 +40,44 @@ public class StreamAPI {
         long count = strings.stream().filter(string -> string.isEmpty()).count();
         System.out.println(count);
     }
+    public static void findFirst(){
+        List<String>strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+        String s = strings.stream().findFirst().get();
+        System.out.println(s);
+    }
+    public static void foreachAdd(){
+      Teacher teacher = new Teacher();
+      teacher.setName("A");
+      teacher.setAge(12);
+      Teacher tb = new Teacher();
+      tb.setName("B");
+      tb.setAge(13);
+      Teacher tc = new Teacher();
+      tc.setName("C");
+      tc.setAge(14);
+      List<Teacher> teachers = new ArrayList<>();
+      teachers.add(teacher);
+      teachers.add(tb);
+      teachers.add(tc);
+      Student s = new Student();
+      List<Student> students = new ArrayList<>();
+      teachers.forEach(t ->{
+          s.setName(t.getName());
+          students.add(s);
+      });
+      s.setName(teachers.stream().map(e -> e.getName()).collect(Collectors.toList()).toString());
+      String ages =(teachers.stream().map(e -> e.getAge()).collect(Collectors.toList()).toString());
+
+      teachers.stream().close();
+        System.out.println(students);
+    }
     public static void main(String[] args) {
+        findFirst();
+        foreachAdd();
         generateStream();
         streamForeach();
         streamMap();
         streamFilter();
     }
+
 }

@@ -17,57 +17,57 @@
     <context:component-scan base-package="cn.cqsztech.*"/>
     <aop:aspectj-autoproxy proxy-target-class="true"/>
     <tx:annotation-driven />
-    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
-          init-method="init" destroy-method="close">
-        <!-- 基本属性 url、user、password -->
-        <property name="driverClassName" value="${jdbc.driver}" />
-        <property name="url" value="${jdbc.url}" />
-        <property name="username" value="${jdbc.username}" />
-        <property name="password" value="${jdbc.password}" />
-        <!-- 配置初始化大小、最小、最大 -->
-        <property name="initialSize" value="${druid.initialSize}" />
-        <property name="minIdle" value="${druid.minIdle}" />
-        <property name="maxActive" value="${druid.maxActive}" />
-        <!-- 配置获取连接等待超时的时间 -->
-        <property name="maxWait" value="${druid.maxWait}" />
-        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
-        <property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />
-        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
-        <property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />
+<!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"-->
+<!--          init-method="init" destroy-method="close">-->
+<!--        &lt;!&ndash; 基本属性 url、user、password &ndash;&gt;-->
+<!--        <property name="driverClassName" value="${jdbc.driver}" />-->
+<!--        <property name="url" value="${jdbc.url}" />-->
+<!--        <property name="username" value="${jdbc.username}" />-->
+<!--        <property name="password" value="${jdbc.password}" />-->
+<!--        &lt;!&ndash; 配置初始化大小、最小、最大 &ndash;&gt;-->
+<!--        <property name="initialSize" value="${druid.initialSize}" />-->
+<!--        <property name="minIdle" value="${druid.minIdle}" />-->
+<!--        <property name="maxActive" value="${druid.maxActive}" />-->
+<!--        &lt;!&ndash; 配置获取连接等待超时的时间 &ndash;&gt;-->
+<!--        <property name="maxWait" value="${druid.maxWait}" />-->
+<!--        &lt;!&ndash; 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 &ndash;&gt;-->
+<!--        <property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />-->
+<!--        &lt;!&ndash; 配置一个连接在池中最小生存的时间，单位是毫秒 &ndash;&gt;-->
+<!--        <property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />-->
 
-        <property name="validationQuery" value="${druid.validationQuery}" />
-        <property name="testWhileIdle" value="${druid.testWhileIdle}" />
-        <property name="testOnBorrow" value="${druid.testOnBorrow}" />
-        <property name="testOnReturn" value="${druid.testOnReturn}" />
-        <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
-        <property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />
-        <property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />
-        <property name="maxOpenPreparedStatements" value="${druid.maxOpenPreparedStatements}" />
+<!--        <property name="validationQuery" value="${druid.validationQuery}" />-->
+<!--        <property name="testWhileIdle" value="${druid.testWhileIdle}" />-->
+<!--        <property name="testOnBorrow" value="${druid.testOnBorrow}" />-->
+<!--        <property name="testOnReturn" value="${druid.testOnReturn}" />-->
+<!--        &lt;!&ndash; 打开PSCache，并且指定每个连接上PSCache的大小 &ndash;&gt;-->
+<!--        <property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />-->
+<!--        <property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />-->
+<!--        <property name="maxOpenPreparedStatements" value="${druid.maxOpenPreparedStatements}" />-->
 
-        <!-- 打开removeAbandoned功能 -->
-        <property name="removeAbandoned" value="${druid.removeAbandoned}" />
-        <!-- 1800秒，也就是30分钟,超过30分钟,连接会自动关闭 -->
-        <property name="removeAbandonedTimeout" value="${druid.removeAbandonedTimeout}" />
-        <!-- 关闭abanded连接时输出错误日志 -->
-        <property name="logAbandoned" value="${druid.logAbandoned}" />
+<!--        &lt;!&ndash; 打开removeAbandoned功能 &ndash;&gt;-->
+<!--        <property name="removeAbandoned" value="${druid.removeAbandoned}" />-->
+<!--        &lt;!&ndash; 1800秒，也就是30分钟,超过30分钟,连接会自动关闭 &ndash;&gt;-->
+<!--        <property name="removeAbandonedTimeout" value="${druid.removeAbandonedTimeout}" />-->
+<!--        &lt;!&ndash; 关闭abanded连接时输出错误日志 &ndash;&gt;-->
+<!--        <property name="logAbandoned" value="${druid.logAbandoned}" />-->
 
-        <!-- 配置监控统计拦截的filters -->
-<!--        <property name="filters" value="${druid.filters}" />-->
-<!--        <property name="proxyFilters">-->
-<!--            <list>-->
-<!--                <ref bean="stat-filter" />-->
-<!--            </list>-->
-<!--        </property>-->
-<!--        <property name="connectionProperties" value="${druid.connectionProperties}" />-->
-<!--        <property name="useGlobalDataSourceStat" value="${druid.useGlobalDataSourceStat}" />-->
-    </bean>
-    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
-        <constructor-arg name="dataSource" ref="dataSource"></constructor-arg>
-    </bean>
-    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"/>
-    </bean>
-    <!--    自动注入配置中心 -->
-    <apollo:config/>
+<!--        &lt;!&ndash; 配置监控统计拦截的filters &ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="filters" value="${druid.filters}" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="proxyFilters">&ndash;&gt;-->
+<!--&lt;!&ndash;            <list>&ndash;&gt;-->
+<!--&lt;!&ndash;                <ref bean="stat-filter" />&ndash;&gt;-->
+<!--&lt;!&ndash;            </list>&ndash;&gt;-->
+<!--&lt;!&ndash;        </property>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="connectionProperties" value="${druid.connectionProperties}" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="useGlobalDataSourceStat" value="${druid.useGlobalDataSourceStat}" />&ndash;&gt;-->
+<!--    </bean>-->
+<!--    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--        <constructor-arg name="dataSource" ref="dataSource"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--        <property name="dataSource" ref="dataSource"/>-->
+<!--    </bean>-->
+<!--    &lt;!&ndash;    自动注入配置中心 &ndash;&gt;-->
+<!--    <apollo:config/>-->
 
 </beans>

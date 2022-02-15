@@ -14,7 +14,7 @@ import java.util.Map;
  * ccmars
  * 2021/5/26
  **/
-@Service
+//@Service
 public class RequiredNewAndRequiredNewServiceImpl {
     @Resource
     private JdbcTemplate jdbcTemplate;

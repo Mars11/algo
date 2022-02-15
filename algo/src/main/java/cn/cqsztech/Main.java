@@ -1,5 +1,12 @@
 package cn.cqsztech;
+import cn.cqsztech.vo.Student;
+import cn.cqsztech.vo.StudentDTO;
+import cn.cqsztech.vo.StudentMapping;
+import cn.cqsztech.vo.TeacherDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 /**
@@ -7,7 +14,9 @@ import java.util.Scanner;
  * 2021/7/23
  **/
 public class Main {
+
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         String p = in.nextLine();
         System.out.println(sum(p).toString());
