@@ -14,7 +14,6 @@ public class StringSpliter {
     public static String getStrFromMap(Map map){
         return MAP_JOINER.join(map);
     }
-
     public static void main(String[] args) {
         Map params = new HashMap();
         params.put("name","zhangsan");
