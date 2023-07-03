@@ -5,6 +5,8 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
+import static java.lang.reflect.Proxy.newProxyInstance;
+
 /**
  * ccmars
  * 2021/6/7
@@ -55,7 +57,7 @@ public class ReflectInterface {
     public static void main(String[] args) {
         //基于jdk的动态代理
         movable m = new A();
-        Object o = Proxy.newProxyInstance(ReflectInterface.class.getClassLoader(), new Class[]{movable.class}, new MyInvocationHandler(m));
+        Object o = newProxyInstance(ReflectInterface.class.getClassLoader(), new Class[]{movable.class}, new MyInvocationHandler(m));
         movable proxy  = (movable) o;
         String hh = proxy.move("hh");
         System.out.println(hh);
