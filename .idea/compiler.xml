@@ -10,8 +10,5 @@
         <module name="algo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="algo" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
